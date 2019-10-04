@@ -1,0 +1,21 @@
+footer {
+    background: #2b2b2b;
+    padding: 10px;
+
+}
+
+footer p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-content {
+    max-width: 600px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-socials img{
+    fill: #fff;
+}

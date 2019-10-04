@@ -1,22 +1,25 @@
 .App {
   text-align: center;
+  background: #000000;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+h1, h2, h3, h4, h5, p {
+  font-family: 'Quicksand', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  font-weight: 100;
 }
 
-.App-link {
-  color: #09d3ac;
+a {
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #000000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
 }
