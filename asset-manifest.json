@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portafolio-FV/static/css/main.068a6525.chunk.css",
+    "main.js": "/Portafolio-FV/static/js/main.e9f0d96a.chunk.js",
+    "main.js.map": "/Portafolio-FV/static/js/main.e9f0d96a.chunk.js.map",
+    "runtime-main.js": "/Portafolio-FV/static/js/runtime-main.0ad7f847.js",
+    "runtime-main.js.map": "/Portafolio-FV/static/js/runtime-main.0ad7f847.js.map",
+    "static/js/2.115eac21.chunk.js": "/Portafolio-FV/static/js/2.115eac21.chunk.js",
+    "static/js/2.115eac21.chunk.js.map": "/Portafolio-FV/static/js/2.115eac21.chunk.js.map",
+    "index.html": "/Portafolio-FV/index.html",
+    "precache-manifest.d6f717fde2f58f0769a655d9f9b28df8.js": "/Portafolio-FV/precache-manifest.d6f717fde2f58f0769a655d9f9b28df8.js",
+    "service-worker.js": "/Portafolio-FV/service-worker.js",
+    "static/css/main.068a6525.chunk.css.map": "/Portafolio-FV/static/css/main.068a6525.chunk.css.map",
+    "static/media/behance.svg": "/Portafolio-FV/static/media/behance.9f2cfe2b.svg",
+    "static/media/github.svg": "/Portafolio-FV/static/media/github.9f8ef016.svg",
+    "static/media/linkedin.svg": "/Portafolio-FV/static/media/linkedin.bd48dbd7.svg",
+    "static/media/logo500px.png": "/Portafolio-FV/static/media/logo500px.ec5c13ae.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ad7f847.js",
+    "static/js/2.115eac21.chunk.js",
+    "static/css/main.068a6525.chunk.css",
+    "static/js/main.e9f0d96a.chunk.js"
+  ]
+}
