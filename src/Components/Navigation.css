@@ -1,10 +1,32 @@
-nav {
-    background: #fff;
+.nav-bar {
+    background: rgba(255, 255, 255, 0.9);
     height: 60px;
     display: flex;
     align-items: center;
     padding: 10px;
+    z-index: 99;
+    width: 100%; 
+    top: -80px;
+    position: inherit;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
 }
+
+.nav-scroll {
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    top: 0 !important;
+    position: fixed; /* Make it stick/fixed */
+}
+
+.navbar-transparent {
+    background: none;
+    box-shadow: none;
+    position: absolute;
+    top: 0;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
+}
+
 .nav-content {
     display: flex;
     align-items: center;
@@ -17,14 +39,23 @@ nav {
 
 .nav-links a {
     font-size: 14px;
-    margin: 0 30px;
+    margin: 0 17px;
     display: inline-block;
-    padding: 10px 10px;
     position: relative;
+    padding: 10px 10px;
+    color: #000;
+}
+
+.navbar-transparent .nav-links a {
+    color: #fff; 
 }
 
 .nav-links a:hover {
-    color: #9FA8DA
+    color: #9FA8DA;
+}
+
+.navbar-transparent .nav-links a:hover {
+    color: #000000;
 }
 
 .nav-links a:after {    
@@ -38,6 +69,10 @@ nav {
     background: #9FA8DA;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
+}
+
+.navbar-transparent .nav-links a:after {    
+    background: #000;
 }
 
 .nav-links a:hover:after { 

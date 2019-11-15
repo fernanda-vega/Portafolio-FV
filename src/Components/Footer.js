@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Linkedin from '../img/linkedin.svg';
-import Behance from '../img/behance.svg';
-import Github from '../img/github.svg';
+import Linkedin from '../assets/img/linkedin.svg';
+import Behance from '../assets/img/behance.svg';
+import Github from '../assets/img/github.svg';
 
 //css
 import './Footer.css'
