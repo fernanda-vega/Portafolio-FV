@@ -3,11 +3,105 @@
 }
    
 .page-header .page-header-image {
-        position: absolute;
-        background-size: cover;
-        background-position: center center;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(60, 60, 95, 0.45);
-        background-blend-mode: soft-light;
+   position: absolute;
+   background-size: 100% auto;
+   background-position: center center;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(60, 60, 95, 0.45);
+   background-blend-mode: soft-light;
 }
+
+.header-text{
+   top: 215px;
+   position: absolute;
+   text-align: left;
+}
+
+.outline-title{
+   margin-top: -65px;
+   margin-left: 30px;}
+
+.slide-btn{
+   display: block;
+   transition: all 0.5s;
+   padding-left: 30px;
+   float: left;
+}
+
+.slide-btn a {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   font-size: 14px;
+   color: #fff;
+}
+
+.slide-btn .lines {
+   width: 42px;
+   height: 1px;
+   float: left;
+   overflow: hidden;
+   -webkit-transition: 0.25s ease-in-out;
+   -moz-transition: 0.25s ease-in-out;
+   -ms-transition: 0.25s ease-in-out;
+   -o-transition: 0.25s ease-in-out;
+   transition: 0.25s ease-in-out;
+ }
+ 
+ .slide-btn .lines span:nth-child(1) {
+   width: 100%;
+   height: 1px;
+   float: right;
+   background: #fff;
+   -webkit-transition: 0.25s ease-in-out;
+   -moz-transition: 0.25s ease-in-out;
+   -ms-transition: 0.25s ease-in-out;
+   -o-transition: 0.25s ease-in-out;
+   transition: 0.25s ease-in-out;
+ }
+ 
+ .slide-btn .lines span:nth-child(2) {
+   width: 0;
+   height: 1px;
+   float: left;
+   background: #fff;
+   -webkit-transition: 0.25s ease-in-out;
+   -moz-transition: 0.25s ease-in-out;
+   -ms-transition: 0.25s ease-in-out;
+   -o-transition: 0.25s ease-in-out;
+   transition: 0.25s ease-in-out;
+ }
+ 
+ .slide-btn:hover .lines {
+   width: 62px;
+   margin-left: 20px;
+ }
+ 
+ .slide-btn:hover .lines span:nth-child(1) {
+   width: 0;
+ }
+ 
+ .slide-btn:hover .lines span:nth-child(2) {
+   width: 100%;
+   transition-delay: 0.2s;
+ }
+ 
+ .slide-btn .play-circle {
+   stroke-dasharray: 315;
+   stroke-dashoffset: 315;
+   transition: stroke-dashoffset 0.5s;
+ }
+ 
+ .slide-btn svg {
+   width: 50px;
+   height: 50px;
+   transition: transform 0.3s;
+   margin-left: -25px;
+   margin-right: 15px;
+ }
+ 
+ .slide-btn:hover .play-circle {
+   stroke-dashoffset: 0;
+ }
+ 

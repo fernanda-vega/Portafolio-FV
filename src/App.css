@@ -1,11 +1,33 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
   background: #000000;
   height: 100vh;
 }
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
 
-h1, h2, h3, h4, h5, p {
-  font-family: 'Quicksand', sans-serif;
+/* COLOR TEXT */
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1.5px white
+}
+.yellow-text {
+  color: #FFE733;
+}
+
+h1, h2, h3, h4, h5, p, b, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 95px;
+  margin: 0;
 }
 
 p {
@@ -14,12 +36,27 @@ p {
 
 a {
   font-weight: 200;
+  font-size: 12px;
   letter-spacing: 1px;
-  color: #000000;
   text-decoration: none;
+}
+
+b{
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 ul {
   list-style: none;
   padding-inline-start: 0;
 }
+
+.btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+}
+
