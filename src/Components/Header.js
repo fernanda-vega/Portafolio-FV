@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React from "react";
-import { Container} from '@material-ui/core'
+import Container from 'react-bootstrap/Container'
 
 import './Header.css'
 
@@ -58,7 +58,7 @@ function IndexHeader() {
 			style={{ backgroundImage: "url(" + require("../assets/img/header.png") + ")",}}>
 			</div>
 		  	<Container>
-			 	<div className="container header-text">
+			 	<div className="content header-text">
 					<h1 className="yellow-text">Design &</h1>
 					<h1 className="outline-title outline-text">Front-End Dev</h1>
 					<div className="btn slide-btn">
