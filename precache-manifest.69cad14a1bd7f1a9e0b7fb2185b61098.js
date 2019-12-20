@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "136d8e7a1f615837ff8e1ed261005686",
+    "revision": "5bfedb6870eaa0ef0fb50d28c159979f",
     "url": "/Portafolio-FV/index.html"
   },
   {
-    "revision": "a0617d4c8cc08e2a927d",
+    "revision": "37ef9fb9058ac69f76b1",
     "url": "/Portafolio-FV/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "aed537db248f954c2cff",
-    "url": "/Portafolio-FV/static/css/main.1e81fae1.chunk.css"
+    "revision": "6662db55ec647695b688",
+    "url": "/Portafolio-FV/static/css/main.a4c4bf4e.chunk.css"
   },
   {
-    "revision": "a0617d4c8cc08e2a927d",
-    "url": "/Portafolio-FV/static/js/2.bdc7a684.chunk.js"
+    "revision": "37ef9fb9058ac69f76b1",
+    "url": "/Portafolio-FV/static/js/2.c1a07119.chunk.js"
   },
   {
-    "revision": "aed537db248f954c2cff",
-    "url": "/Portafolio-FV/static/js/main.6505d45c.chunk.js"
+    "revision": "6662db55ec647695b688",
+    "url": "/Portafolio-FV/static/js/main.5b022273.chunk.js"
   },
   {
     "revision": "970bc35e64fce65d2f51",
