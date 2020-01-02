@@ -1,55 +1,9 @@
 /*eslint-disable*/
 import React from "react";
 import Container from 'react-bootstrap/Container'
-
 import './Header.css'
 
-
-
-// reactstrap components
-// import { Container } from "reactstrap";
-// core components
-
 function IndexHeader() {
-	
-
-	// function moveText (){
-	// 	const range = 40;
-	// 	const text = document.querySelector(".header-text")
-	// 	// const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);
-	// 	const calcValue = (a, b) => (a/b*range-range/2).toFixed(1)
-	
-	// 	let timeout;
-	// 	document.addEventListener('mousemove', ({x, y}) => {
-	// 	if (timeout) {
-	// 		window.cancelAnimationFrame(timeout);
-	// 	}
-			
-	// 	timeout = window.requestAnimationFrame(() => {
-	// 	 const yValue = calcValue(y, window.innerHeight);
-	// 	 const xValue = calcValue(x, window.innerWidth);
-	
-	// 	 text.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
-	// 	})
-	// }, false);
-	
-	// }
-	
-//   let pageHeader = React.createRef();
-
-//   React.useEffect(() => {
-//     if (window.innerWidth > 991) {
-//       const updateScroll = () => {
-//         let windowScrollTop = window.pageYOffset / 3;
-//         pageHeader.current.style.transform =
-//           "translate3d(0," + windowScrollTop + "px,0)";
-//       };
-//       window.addEventListener("scroll", updateScroll);
-//       return function cleanup() {
-//         window.removeEventListener("scroll", updateScroll);
-//       };
-//     }
-//   });
 
   return (
 		<div className="page-header clear-filter">

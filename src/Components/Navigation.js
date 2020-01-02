@@ -11,33 +11,6 @@ import { Container } from '@material-ui/core'
 
 
 function Navigation () {
-    // const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-    // React.useEffect(() => {
-    //   const updateNavbarColor = () => {
-    //     if (
-    //       document.documentElement.scrollTop > 380 ||
-    //       document.body.scrollTop > 380
-    //     ) {
-    //       setNavbarColor("nav-scroll");
-    //     } 
-    //     else if (
-    //       (document.documentElement.scrollTop > 201  || document.body.scrollTop > 201 ) && 
-    //       (document.documentElement.scrollTop < 379  || document.body.scrollTop < 379 )
-    //     ) {
-    //       setNavbarColor("");
-    //     } 
-    //     else if (
-    //       document.documentElement.scrollTop < 200 ||
-    //       document.body.scrollTop < 200
-    //     ) {
-    //       setNavbarColor("navbar-transparent");
-    //     }
-    //   };
-    //   window.addEventListener("scroll", updateNavbarColor);
-    //   return function cleanup() {
-    //     window.removeEventListener("scroll", updateNavbarColor);
-    //   };
-    // });
         return (
             // <nav className={"nav-bar " + navbarColor}>
              <nav className="nav-bar navbar-transparent">

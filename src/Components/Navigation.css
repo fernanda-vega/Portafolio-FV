@@ -43,10 +43,12 @@
     position: relative;
     padding: 10px 10px;
     color: #000;
+    text-decoration: none;
 }
 
 .navbar-transparent .nav-links a {
     color: #fff; 
+    
 }
 
 .nav-links a:hover {
