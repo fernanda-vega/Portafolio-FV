@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Header from './components/Header'
