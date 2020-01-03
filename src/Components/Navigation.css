@@ -3,9 +3,9 @@
     box-shadow: none;
     position: absolute;
     z-index: 99;
-    width: 95%;
+    width: 100%;
+    margin-top: 10px;
 }
-
 
 .nav-content {
     display: flex;
@@ -25,10 +25,15 @@
     position: relative;
     padding: 10px 10px;
     text-decoration: none;
+    
 }
 
 .navbar-transparent .nav-links a {
     color: #fff; 
+}
+
+.nav-links {
+margin: auto;
 }
 
 .nav-links :hover {
@@ -62,26 +67,19 @@ li img{
     height: 23px;
 }
 
-.nav-socials {
-    display: flex;
-    flex-wrap: wrap;
-}
-.nav-socials li {
-    margin-right: 20px;
+.nav-icon-section>a{
+    margin: auto !important;
 }
 
-.nav-ico img :hover{
-    color: aqua;
+.nav-icon-section>a :hover {
+    filter: invert(1)
 }
-  /* @media screen and (max-height: 300px) {
-      ul {
-          margin-top: 40px;
-      }
-  } */
+.nav-ico svg {
+    height: 24px;
+    width: 24px;
+    margin: auto;
+  }
   
-#linkedin-ico {
-    fill: khaki;
+.nav-ico path {
+fill: #fff;
 }
-
-/* BURGER */
-

@@ -8,42 +8,22 @@ import Github from '../assets/icons/github.svg';
 
 //css
 import './Navigation.css';
+import styled from 'styled-components';
+import { ReactSVG } from 'react-svg'
 import { Container } from '@material-ui/core'
 
+const Styles = styled.div`
+  .navbar {
+    background-color: #222;
+  }
+  `;
 
 function Navigation () {
-    // const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-    // React.useEffect(() => {
-    //   const updateNavbarColor = () => {
-    //     if (
-    //       document.documentElement.scrollTop > 380 ||
-    //       document.body.scrollTop > 380
-    //     ) {
-    //       setNavbarColor("nav-scroll");
-    //     } 
-    //     else if (
-    //       (document.documentElement.scrollTop > 201  || document.body.scrollTop > 201 ) && 
-    //       (document.documentElement.scrollTop < 379  || document.body.scrollTop < 379 )
-    //     ) {
-    //       setNavbarColor("");
-    //     } 
-    //     else if (
-    //       document.documentElement.scrollTop < 200 ||
-    //       document.body.scrollTop < 200
-    //     ) {
-    //       setNavbarColor("navbar-transparent");
-    //     }
-    //   };
-    //   window.addEventListener("scroll", updateNavbarColor);
-    //   return function cleanup() {
-    //     window.removeEventListener("scroll", updateNavbarColor);
-    //   };
-    // });
         return (
-            // <nav className={"nav-bar " + navbarColor}>
-             <nav className="">
+            <Styles>
+             <nav className="nav-bar">
                 <Container maxWidth='lg'>
-                <Navbar sticky="top" collapseOnSelect expand="lg" bg="transparent" className="nav-bar">
+                <Navbar collapseOnSelect expand="lg" bg="transparent">
                 <Router>
                 <Navbar.Brand as={Link} to="/"><img src={LogoWhite} alt="logo" className="logo-nav"></img></Navbar.Brand>
                   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
@@ -55,11 +35,17 @@ function Navigation () {
                       <Nav.Link as={Link} to="/contact">CONTACTO</Nav.Link>
                       <Nav.Link as={Link} to="/resume">CURRICULUM</Nav.Link>
                     </Nav>
-                    {/* <Nav className="nav-socials">
-                      <Nav.Link href="www.linkedin.com/in/fernanda-vega" rel='noopener'>><img src={Linkedin} alt="linkedin"></img></Nav.Link>
-                      <Nav.Link href="https://www.behance.net/fernandabelen" rel='noopener'><img src={Linkedin} alt="linkedin"></img></Nav.Link>
-                      <Nav.Link href="https://github.com/fernandabelenVL" rel='noopener'><img src={Linkedin} alt="linkedin"></img></Nav.Link>
-                    </Nav> */}
+                    <Nav className="nav-icon-section">
+                        <Nav.Link href="https://www.linkedin.com/in/fernanda-vega/" className="nav-ico" target="_blank">
+                            <ReactSVG className="nav-ico" src={Linkedin} />
+                        </Nav.Link>
+                        <Nav.Link href="https://www.behance.net/fernandabelen" className="nav-ico" target="_blank">
+                            <ReactSVG className="nav-ico" src={Behance} />
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/fernandabelenVL" className="nav-ico" target="_blank">
+                            <ReactSVG className="nav-ico" src={Github} />
+                        </Nav.Link>
+                    </Nav>
                   </Navbar.Collapse>
                   </Router>
                 </Navbar>
@@ -73,6 +59,7 @@ function Navigation () {
                 </Router> */}
 
             </nav>
+            </Styles>
         )
     }
 
